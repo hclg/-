@@ -36,3 +36,35 @@
 * 每个机架有30-40个服务器，1G交换机
 * 在相同的机架中的节点间的宽带的总和,要大于机架间的节点间带宽总和。
 
+![image-20200218095844493](C:\Users\黄才龙\AppData\Roaming\Typora\typora-user-images\image-20200218095844493.png)
+
+### 4. 集群的建立与安装
+
+​	这里选用自动化安装：参考[链接](http://dblab.xmu.edu.cn/blog/install-hadoop/)
+
+##### 4.1 完全分布式模式的安装和配置
+
+* 配置hosts文件
+
+* 建立hadoop运行账户
+
+* 配置ssh免密连入
+
+* 下载解压hadoop
+
+* 配置namenode，修改site文件
+
+* 配置hadoop-env.sh
+
+* 配置master和slaves文件
+
+* 向各节点复制hadoop
+
+* 格式化namenode
+
+* 启动hadoop
+
+* 用jps检验
+
+  > 以上都在链接中有详细教程
+
