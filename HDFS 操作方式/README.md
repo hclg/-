@@ -1,13 +1,12 @@
 # HDFS 操作(Centos7环境下)
+* <a href="#d1">命令行方式</a>
+  * <a href="#d1_1">文件操作</a>
+  * <a href="#d1_2">添加新节点</a>
+* <a href="#d2">API方式</a>
 
-* [`命令行方式`](#1 命令行)
-  * [文件操作](#1.1 文件操作)
-  * [添加新节点](#1.2 添加新节点)
-* [API方式](# 2.API方式)
+### <div id = "d1">1 命令行</div>
 
-#### 1 命令行
-
-#### 1.1 文件操作
+#### <div id = "d1_1">&ensp;1.1 文件操作</div>
 
 `注意`：Hadoop没有当前目录的概念，也没有cd命令
 
@@ -38,7 +37,7 @@ hdfs dfsadmin -report
 
 ```
 
-#### 1.2 添加新节点
+#### <div id = "d1_2">1.2 添加新节点<div>
 
 * 安装好hadoop
 * 把namenode的所有有关配置文件复制到该节点
@@ -53,7 +52,6 @@ hdfs dfsadmin -report
 > start-balancer.sh
 > ```
 
-### 2. API方式
+### <div id = "d2">2. API方式</div>
 
 网站：[传送门](hadoop.apache.org)
-
