@@ -10,4 +10,5 @@
 * 映像文件
 * SecondaryNameNode
 
-![img](..\image\HDFS体系结构.png)
+![img](HDFS体系结构.png)
+
